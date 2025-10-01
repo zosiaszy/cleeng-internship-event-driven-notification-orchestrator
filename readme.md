@@ -10,13 +10,13 @@ All preferences are stored in memory (using a `Map`), no database is used.
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Manage user preferences via REST API
-- 🕒 Handle "Do Not Disturb" (DND) logic, including cross-midnight cases (e.g., `22:00`–`07:00`)
-- ✅ Validate input using [Zod](https://zod.dev)
-- ✅ In-memory storage with `Map`
-- 🧪 Unit tested (Jest) – especially for time logic
+- Manage user preferences via REST API
+- Handle "Do Not Disturb" (DND) logic, including cross-midnight cases (e.g., `22:00`–`07:00`)
+- Validate input using [Zod](https://zod.dev)
+- In-memory storage with `Map`
+- Unit tested (Jest) – especially for time logic
 
 ---
 
@@ -191,7 +191,6 @@ cleeng-internship-event-driven-notification-orchestrator/
 - In-memory store only (no DB)
 - Full TypeScript setup
 - Unit tested
-- Follows clean folder structure and RESTful endpoints
 
 ## 🙋‍♀️ About the Author
 
